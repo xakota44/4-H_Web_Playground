@@ -1,16 +1,36 @@
 <!DOCTYPE html>
+<!--Github: Xakota44-->
 <html>
     <head>
         <!--The title is important for search engines to find your website!-->
         <title>My 4-H Portal</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body style="background-color: beige;">
-        <h1 style="color: rebeccapurple; text-align: center;">Welcome to the 4-H sign in portal!</h1>
-        <p>What you can do here:</p>
-        <ul>
-            <li>Sign in for your club</li>
-            <li>Check when your peers last signed in</li>
-        </ul>
+    <body>
+        <header>
+            <p>Learn by doing</p>
+            <h1>Welcome to the 4-H club portal!</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>Your club portal</h2>
+                <p>Use this page to:</p>
+                <ul>
+                    <li>Sign in for your club</li>
+                    <li>See when your peers signed in</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Member sign-in</h2>
+                <form id="sign-in-form">
+                    <label for="member-name">Your name</label>
+                    <input id="member-name" name="member-name" type="text" autocomplete="off" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
     </body>
-    <footer style="background-color: azure;">Thanks for visiting!</footer>
+    <footer>Thanks for visiting!</footer>
 </html>
